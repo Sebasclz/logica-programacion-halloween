@@ -9,9 +9,6 @@ function battleHorde(zombies: string, humans: string): string {
       zombiePower[i + 1] = (zombiePower[i + 1 || 0]) + (zombiePower[i] - humanPower[i])
     } else if (zombiePower[i] < humanPower[i]) {
       humanPower[i + 1] = (humanPower[i + 1 || 0]) + (humanPower[i] - zombiePower[i])
-    } else {
-      // Pass
-      // No se necesitan cambios
     }
   }
 
