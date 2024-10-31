@@ -14,7 +14,7 @@ function battleHorde(zombies: string, humans: string): string {
       charZombie[i + 1] += resZombie
       arrayZombie.push(resZombie)
 
-      if (i === charZombie.length - 2) {
+      if (i === charZombie.length - 1) {
         winner = 'z'
       }
     }
